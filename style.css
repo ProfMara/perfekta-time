@@ -1,0 +1,145 @@
+.benslista{
+    display: inline;
+   
+    width: 30%;
+    margin-right: 5% ;
+    line-height: 1.5;
+    list-style-type: none;
+    position: absolute;
+    left:70%;
+    top:0%;
+    height:66%;
+    align-items: center;
+    padding:10px;
+}
+
+.bens{
+    font-style: italic;
+    font-family: Arial;
+}
+
+.bens:first-child{
+    font-weight: bold;
+}
+.bens:before{
+    content: '⭐';
+}
+
+.beneficios img{
+    width:66%;
+    display: inline;
+    box-shadow: 3px 0px 30px grey;
+    
+}
+.beneficios img:hover{
+    transition:1s;
+    transform: scale(1.01); 
+    
+}
+
+
+
+.beneficios {
+    display: flex;
+    position: relative;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    background:black;
+    margin:0px;
+    width:100%;
+    position: fixed;
+    box-shadow: 0px 3px 30px grey;
+    height:60px;
+    top:0px;
+}
+
+.menu li{
+    padding:20px;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    font-family: Arial;
+    padding:20px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.menu a:hover{
+font-size: 25px;
+}
+#title{
+    margin-top: 10%;
+    font-size: 150px;
+    font-family: Arial;
+    text-shadow: 0px 3px 15px lightgrey;
+}
+
+#missao{
+
+    width:65%;
+    font-size: 30px;
+    padding:20px;
+    border-radius: 30px;
+    margin:40px;
+}
+#missao img{
+    width:100%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px lightgrey;
+}
+
+#subtitle{
+    
+    margin-top: 10%;
+    font-size: 50px;
+    font-family: Arial;
+    text-shadow: 0px 3px 15px lightgrey;
+}
+
+#chat input{
+    border: none;
+    box-shadow: 0px 0px 10px lightgrey;
+    margin:10px;
+    width:66%;
+    padding:30px;
+    border-radius: 10px;
+    
+}
+#chat button{
+    padding:15px 30px;
+    border-radius: 10px;
+    border:none;
+    box-shadow: 0px 0px 10px lightgrey;
+    background-color: rgb(68, 255, 68);
+    font-weight: bold;
+    font-size: 20px;
+}
+#contact-list{
+    list-style: none;
+    display: table-cell;
+    
+}
+#contato{
+    margin:100px;
+}
+.item img{
+    width:30px;
+}
+.item{
+    font-size: 20px;
+    font-family: Arial;
+    padding: 5px 15px;
+    margin-top: 5px;
+    vertical-align: middle;
+  
+}
+
+#contato h3{
+    font-family: Arial;
+}
